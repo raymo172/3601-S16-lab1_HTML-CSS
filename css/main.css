@@ -3,6 +3,21 @@ h2 {
     font-family: "Lucida Grande", "Helvetica Nueue", Arial, sans-serif;
 }
 
+div {
+    max-width: 5%;
+    color: fuchsia;
+    border: groove cyan;
+}
+
+#div.Nested1 {
+    max-width: 100%;
+    color: black;
+
+    text-align: left;
+    border: outset silver;
+
+}
+
 p {
     font-family: monospace;
 }
@@ -16,4 +31,10 @@ img {
 
 .centerText {
     text-align: center;
+}
+
+.testClass {
+    position: absolute;
+    width: 100%;
+    border: double mediumvioletred;
 }
