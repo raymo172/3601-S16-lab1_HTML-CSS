@@ -33,7 +33,7 @@ img {
     text-align: center;
 }
 
-.testClass {
+#div.testClass {
     position: absolute;
     width: 100%;
     border: double mediumvioletred;
