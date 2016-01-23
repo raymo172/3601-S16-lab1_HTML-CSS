@@ -7,10 +7,8 @@ div {
 #div.Nested1 {
     width: auto;
     color: black;
-
     text-align: left;
     border: outset silver;
-
 }
 
 .centerText {
@@ -50,12 +48,12 @@ div {
     background-color: aqua;
 
 }
-#navigation h1{
+#navigation h1 {
 
 
 }
 
-#navigation h2{
+#navigation h2 {
 
     width: 95%;
     height: 10%;
@@ -65,7 +63,7 @@ div {
     font-color: black;
 }
 
-.footer{
+#footer {
     position: fixed;
     width: 100%;
     bottom: 0;
@@ -73,6 +71,20 @@ div {
     height: 5%;
     border: double black;
     color: black;
+}
+
+#
+
+#footer addres {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+#footer contact {
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
 }
 
 p {
