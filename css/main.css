@@ -75,10 +75,11 @@ div {
 
 
 
-#footer addres {
-    margin-left: auto;
-    margin-right: auto;
+#footer address {
     width: 20%;
+    left: 50%;
+    font-style: normal;
+    border: double darkcyan;
 }
 
 #footer contact {
