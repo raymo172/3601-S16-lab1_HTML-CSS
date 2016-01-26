@@ -7,7 +7,6 @@ div {
 }
 
 .header{
-    width: 100%;
     min-width: 5em;
     border: double black;
     text-align: center;
@@ -44,7 +43,6 @@ div {
     border: solid black;
     padding: 1%;
     margin: 1%;
-    font-size: 75%;
     background-color: mediumvioletred;
 }
 
@@ -73,9 +71,13 @@ p {
 
 img {
     float: left;
-    max-width: 30%;
-    width: 21%;
+    width: 14em;
     margin-left: 1%;
     margin-right: 1%;
+    margin-top: 1em;
     border: dashed hotpink;
+}
+
+#final {
+    margin-bottom: 5em;
 }
