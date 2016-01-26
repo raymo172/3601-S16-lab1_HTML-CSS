@@ -1,55 +1,29 @@
+body{
+    background-color: blueviolet;
+}
 
 div {
     width: 100%;
 }
 
-#div.Nested1 {
-    width: auto;
-    color: black;
-    text-align: left;
-    border: outset silver;
-}
-
-.centerText {
-    text-align: center;
-}
-
-.testClass {
-    position: absolute;
-    width: 10%;
-    height: 5%;
-    left: 0px;
-    top: 0px;
-    border: double mediumvioletred;
-}
 .header{
-    postion: fixed;
     width: 100%;
-    height: 10%;
-    left: 0px;
-    top: 0px;
+    min-width: 8em;
     border: double black;
     text-align: center;
     font-size: xx-large;
+    background-color: red;
 }
 
 #navigation {
-    postion: fixed;
+    float:left;
     width: 18%;
-    min-width:10em;
-    height: 50%;
+    min-width: 10em;
     border: solid black;
     padding: 1%;
     margin: 1%;
-    left: 5px;
-    top: 5px;
-    font-weight: normal;
     font-size: 75%;
     background-color: aqua;
-
-}
-#navigation h1 {
-
 
 }
 
@@ -60,7 +34,25 @@ div {
     border: none;
     padding: 3%;
     font-weight: normal;
-    color: black;
+}
+
+#welcome {
+    float:left;
+    text-align: center;
+    width: 70%;
+    min-width: 39em;
+    border: solid black;
+    padding: 1%;
+    margin: 1%;
+    font-size: 75%;
+    background-color: mediumvioletred;
+
+}
+
+#welcome p{
+    text-align: left;
+    font-size: large;
+
 }
 
 .footer {
@@ -69,13 +61,12 @@ div {
     left: 0;
     height: 2.5em;
     border: double black;
+    background-color: red;
+    min-width: 10em;
+    text-align: center;
 }
 
-#address {
-    font-style: normal;
-}
-
-#contact  {
+#address, #contact {
     font-style: normal;
 }
 
@@ -84,8 +75,9 @@ p {
 }
 
 img {
+    float: left;
     display: block;
-    width: auto;
-    margin-left: auto;
-    margin-right: auto;
+    width: 29%;
+    margin-left: 1%;
+    margin-right: 1%;
 }
